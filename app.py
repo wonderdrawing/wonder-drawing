@@ -205,5 +205,6 @@ elif mode == "🔐 관리자 모드":
         with st.form("new_reg"):
             n_name = st.text_input("성함*"); n_phone = st.text_input("연락처*")
             if st.form_submit_button("➕ 등록"):
-                new_row = ["수강중", n_name, n_phone, "미술", "월 4회", "", "", "-", get_kst_now().strftime("%Y-%m-%d"), "", "", 4
+                new_row = ["수강중", n_name, n_phone, "미술", "월 4회", "", "", "-", get_kst_now().strftime("%Y-%m-%d"), "", "", 4, 0, "-", "-", "", "", "", "", ""]
+
 
